@@ -2,9 +2,12 @@
 `h5tree` is a command-line utilitly that prints the tree structure of an HDF5 file, similar to `tree`.
 It also displays meta-data, such as the data shape, data type, and the values of attributes.
 
+## Install
+Install with `pip install h5tree`, or simply copy the file `bin/h5tree` to a folder in your system `PATH`
+
 ## Example output
 ```bash
->>> h5tree -va data.h5                                                                                                                                       johnparker@MacBook-Pro
+>>> h5tree -va data.h5
 data.h5  (3 objects, 2 attributes)
 │   ├── name  Sam
 │   ├── value  105
